@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<extension>
+  <name>PLUGIN_LYRIONGOTRANSCODE</name>
+  <module>Plugins::LyrionGoTranscode::Plugin</module>
+  <version>1.0.0</version>
+  <description>PLUGIN_LYRIONGOTRANSCODE_DESC</description>
+  <creator>Benjamin Friedrich</creator>
+  <homepageURL>https://github.com/bennigecko/LyrionGo-LMS</homepageURL>
+  <defaultState>enabled</defaultState>
+  <type>2</type>
+  <targetApplication>
+    <id>SlimServer</id>
+    <minVersion>7.9</minVersion>
+    <maxVersion>9.*</maxVersion>
+  </targetApplication>
+</extension>

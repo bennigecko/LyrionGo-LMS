@@ -1,0 +1,28 @@
+PLUGIN_LYRIONGOTRANSCODE
+	EN	LyrionGo Transcode Rules
+	DE	LyrionGo Transcodierregeln
+
+PLUGIN_LYRIONGOTRANSCODE_DESC
+	EN	Transcode rules for the Android app LyrionGo: FLAC/MP3 to Opus or Ogg Vorbis for streaming and offline downloads.
+	DE	Transcodierregeln für die Android-App LyrionGo: FLAC/MP3 zu Opus oder Ogg Vorbis für Streaming und Offline-Downloads.
+
+LG6
+	EN	Ogg Vorbis q6 (LyrionGo download)
+
+LG8
+	EN	Ogg Vorbis q8 (LyrionGo download)
+
+LGX
+	EN	Ogg Vorbis q10 (LyrionGo download)
+
+OP96
+	EN	Opus 96 kbps (LyrionGo download)
+
+OP128
+	EN	Opus 128 kbps (LyrionGo download)
+
+OP160
+	EN	Opus 160 kbps (LyrionGo download)
+
+OP192
+	EN	Opus 192 kbps (LyrionGo download)
