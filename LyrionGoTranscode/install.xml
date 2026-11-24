@@ -2,7 +2,7 @@
 <extension>
   <name>PLUGIN_LYRIONGOTRANSCODE</name>
   <module>Plugins::LyrionGoTranscode::Plugin</module>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <description>PLUGIN_LYRIONGOTRANSCODE_DESC</description>
   <creator>Benjamin Friedrich</creator>
   <homepageURL>https://github.com/bennigecko/LyrionGo-LMS</homepageURL>

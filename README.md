@@ -12,7 +12,7 @@ sowohl beim Streamen als auch für Offline-Downloads.
    https://raw.githubusercontent.com/bennigecko/LyrionGo-LMS/main/repo.xml
    ```
 3. In der Liste **LyrionGo Transcode Rules** aktivieren, speichern und LMS neu starten.
-4. Für Opus muss `opusenc` auf dem Server installiert sein (Debian/Ubuntu/Raspberry Pi: `apt install opus-tools`).
+4. Für Opus muss `ffmpeg` mit `libopus` auf dem Server sein (piCorePlayer: Main Page → Extensions → `ffmpeg7.tcz`; Debian/Ubuntu: `apt install ffmpeg`).
 
 ## So erkennt LMS die Einstellungen der App
 
