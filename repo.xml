@@ -9,7 +9,7 @@
       <title lang="DE">LyrionGo Transcodierregeln</title>
       <desc lang="EN">Transcode rules for the Android app LyrionGo: FLAC/MP3 to Opus or Ogg Vorbis for streaming and offline downloads.</desc>
       <desc lang="DE">Transcodierregeln für die Android-App LyrionGo: FLAC/MP3 zu Opus oder Ogg Vorbis für Streaming und Offline-Downloads.</desc>
-      <url>https://github.com/bennigecko/LyrionGo-LMS/releases/download/v1.0.0/LyrionGoTranscode-1.0.0.zip</url>
+      <url>https://raw.githubusercontent.com/bennigecko/LyrionGo-LMS/main/releases/LyrionGoTranscode-1.0.0.zip</url>
       <sha>bb602822757f8a7856dd985e9590b2187fdf8550</sha>
       <link>https://github.com/bennigecko/LyrionGo-LMS</link>
       <creator>Benjamin Friedrich</creator>

@@ -27,4 +27,4 @@ Aufbau der Regeln nach dem Vorbild von [MobileTranscode](https://github.com/mtxm
 ## Neue Version veröffentlichen
 
 `version.txt` erhöhen, `python3 build.py bennigecko/LyrionGo-LMS` ausführen, `dist/repo.xml`
-nach `repo.xml` kopieren und die ZIP aus `dist/` als Release `v<version>` hochladen.
+nach `repo.xml` und die ZIP aus `dist/` nach `releases/` kopieren, committen und pushen.

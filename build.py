@@ -2,7 +2,8 @@
 """Baut das LMS-Plugin "LyrionGo Transcode": install.xml, ZIP und repo.xml.
 
 Aufruf: python3 lms-plugin/build.py <owner/repo>   (öffentliches GitHub-Repo für die Releases)
-Ergebnis in lms-plugin/dist/: LyrionGoTranscode-<version>.zip und repo.xml
+Ergebnis in dist/: LyrionGoTranscode-<version>.zip und repo.xml.
+Veröffentlichen: ZIP nach releases/ und repo.xml ins Wurzelverzeichnis des öffentlichen Repos legen.
 """
 import hashlib, os, sys, zipfile
 
@@ -57,7 +58,7 @@ with open(os.path.join(dist, "repo.xml"), "w") as f:
       <title lang="DE">LyrionGo Transcodierregeln</title>
       <desc lang="EN">Transcode rules for the Android app LyrionGo: FLAC/MP3 to Opus or Ogg Vorbis for streaming and offline downloads.</desc>
       <desc lang="DE">Transcodierregeln für die Android-App LyrionGo: FLAC/MP3 zu Opus oder Ogg Vorbis für Streaming und Offline-Downloads.</desc>
-      <url>https://github.com/{repo}/releases/download/v{version}/{name}-{version}.zip</url>
+      <url>https://raw.githubusercontent.com/{repo}/main/releases/{name}-{version}.zip</url>
       <sha>{sha}</sha>
       <link>https://github.com/{repo}</link>
       <creator>Benjamin Friedrich</creator>
